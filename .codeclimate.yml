@@ -1,0 +1,12 @@
+version: "2"
+plugins:
+  pmd:
+    enabled: true
+    config:
+      rules:
+        - "java-basic"
+        - "java-strings"
+        - "java-unnecessary"
+        - "java-unusedcode"
+exclude_patterns:
+  - "nbproject/"
