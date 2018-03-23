@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>net.ikaheishi.services</groupId>
-    <artifactId>Penelope</artifactId>
-    <version>0.1.0-dev</version>
-    <packaging>jar</packaging>
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-    </properties>
-    <name>Penelope</name>
-    <description>A Discord chat bot for the Project Respawn community.</description>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>2.3.2</version>
-                <configuration>
-                    <showDeprecation>true</showDeprecation>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+	<!-- CORE MODULE PROPERTIES ========================================== -->
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>net.ikaheishi.services.penelope</groupId>
+	<artifactId>penelope-core</artifactId>
+	<version>0.1.0-dev</version>
+	<packaging>jar</packaging>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+	<!-- PROJECT INFORMATION ============================================= -->
+	<name>Penelope</name>
+	<description>A Discord chat bot for the Project Respawn community.</description>
+	<!-- BUILD CONFIGURATION ============================================= -->
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.3.2</version>
+				<configuration>
+					<showDeprecation>true</showDeprecation>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<!-- ADDITIONAL REPOSITORIES ========================================= -->
 	<repositories>
 		<repository>
 			<id>jcenter</id>
@@ -34,6 +38,7 @@
 			<url>https://jitpack.io</url>
 		</repository>
 	</repositories>
+	<!-- DEPENDENCY INFORMATION ========================================== -->
 	<dependencies>
 		<dependency>
 			<groupId>com.github.austinv11</groupId>
