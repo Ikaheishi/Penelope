@@ -5,6 +5,7 @@ A Discord chat bot for the Project Respawn community.
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/02147af5ca9ad390c011/maintainability)](https://codeclimate.com/github/Ikaheishi/Penelope/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/02147af5ca9ad390c011/test_coverage)](https://codeclimate.com/github/Ikaheishi/Penelope/test_coverage)
+[![CircleCI](https://circleci.com/gh/Ikaheishi/Penelope/tree/master.svg?style=shield)](https://circleci.com/gh/Ikaheishi/Penelope/tree/master)
 
 Building
 ------------------------
